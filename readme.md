@@ -252,13 +252,49 @@ void main()
     num2 = 13;
     // equal
     printf("%d \n", num1 == num2);
-    // gater then
+
+    // not equal
+    printf("%d \n", num1 != num2);
+
+    // grater then
     printf("%d \n", num1 > num2);
-    // gater then or equal
+
+    // grater then or equal
     printf("%d \n", num1 >= num2);
+
     // less then
     printf("%d \n", num1 < num2);
+
     // les then or equal
     printf("%d \n", num1 <= num2);
+}
+```
+
+### Logical Operators:
+
+```
+- Logical AND : &&
+- Logical OR : ||
+- Logical NOT: !
+
+```
+
+```c
+#include <stdio.h>
+#include <stdbool.h>
+
+void main()
+{
+    bool isAdult, isMarried;
+    isAdult = true;
+    isMarried = false;
+    // logical AND Operator
+    printf("%d \n", isAdult && isMarried);
+
+    // logical OR operator
+    printf("%d \n", isAdult || isMarried);
+
+    // logical NOT operator
+    printf("%d \n", !isAdult);
 }
 ```
