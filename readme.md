@@ -121,7 +121,23 @@ void main()
     int age, year;
     age = 10;
     year = 2023;
-    printf("The age is %d \n", age);
+    printf("The age is %d \n", age); // here \n is used for take a line break
     printf("The year is %d", year);
+}
+```
+
+## Input in C:
+
+- scanf() function is used to take input from console
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int age;
+    printf("What is your age?: ");
+    scanf("%d", &age); // here & used to indicate memory location of age
+    printf("Your age is %d", age);
 }
 ```

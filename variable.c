@@ -23,7 +23,7 @@ void main()
     int age, year;
     age = 10;
     year = 2023;
-    printf("The age is %d \n", age);
+    printf("The age is %d \n", age); // here \n is used for take a line break
     printf("The year is %d", year);
 }
 */
