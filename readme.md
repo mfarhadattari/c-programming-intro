@@ -187,3 +187,46 @@ void main()
     printf("Modulus: %d \n", modulus);
 }
 ```
+
+### Assignment Operators:
+
+```
+- Assign : =
+- Assign and Addition: +=
+- Assign and Subtraction: -=
+- Assign and Multiplication: *=
+- Assign and Division: /=
+- Assign and Modulus: %=
+```
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int num;
+    // assign
+    num = 5;
+    printf("%d \n", num);
+
+    // assign and addition
+    num += 5; // ==> num = num + 5;
+    printf("%d \n", num);
+
+    // assign and subtraction
+    num -= 5; // ==> num = num - 5;
+    printf("%d \n", num);
+
+    // assign and multiplication
+    num *= 2; // ==> num = num * 2;
+    printf("%d \n", num);
+
+    // assign and division
+    num /= 2; // ==> num = num / 2;
+    printf("%d \n", num);
+
+    // assign and modulus
+    num %= 2; // ==> num = num % 2;
+    printf("%d \n", num);
+}
+```
