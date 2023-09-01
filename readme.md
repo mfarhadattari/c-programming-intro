@@ -68,7 +68,7 @@ void main()
 - boolean: boolean {1 (true) or 0 (false)}
 - void: nothing
 
-## variable
+## variable:
 
 ### Variable means name of memory address where data is stored.
 
@@ -139,5 +139,51 @@ void main()
     printf("What is your age?: ");
     scanf("%d", &age); // here & used to indicate memory location of age
     printf("Your age is %d", age);
+}
+```
+
+## Operators:
+
+- Arithmetic Operators:
+- Assignment Operators
+- Relational or Compositional Operators
+- Logical Operators
+
+### Arithmetic Operators:
+
+```
+- Addition : +
+- Subtract: -
+- Multiplication: *
+- Divide: /
+- Modulus: %
+```
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int num1, num2;
+    scanf("%d %d", &num1, &num2);
+    // Addition
+    int addition = num1 + num2;
+    printf("Addition: %d \n", addition);
+
+    // Subtraction
+    int deference = num1 - num2;
+    printf("Subtraction: %d \n", deference);
+
+    // Multiplication
+    int multiplication = num1 * num2;
+    printf("Multiplication: %d \n", multiplication);
+
+    // Division
+    int division = num1 / num2;
+    printf("Division: %d \n", division);
+
+    // Modulus
+    int modulus = num1 % num2;
+    printf("Modulus: %d \n", modulus);
 }
 ```
