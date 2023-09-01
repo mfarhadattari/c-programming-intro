@@ -298,3 +298,75 @@ void main()
     printf("%d \n", !isAdult);
 }
 ```
+
+## Conditions (if-else):
+
+- if statement => single condition - result only condition true
+- if-else statement => single condition - result for condition true and false
+- else if statement => multiple conditions - result for condition true and false
+
+### if statement
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    if (age >= 18)
+    {
+        printf("You are adult!");
+    }
+}
+```
+
+### if-else statement
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    if (age >= 18)
+    {
+        printf("You are adult!");
+    }
+    else
+    {
+        printf("You are Child!");
+    };
+}
+```
+
+### else if statement
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    if (age < 18)
+    {
+        printf("You are Child!");
+    }
+    else if (age >= 18 && age <= 35)
+    {
+        printf("You are Youth!");
+    }
+    else
+    {
+        printf("You are Oldest!");
+    };
+}
+```
