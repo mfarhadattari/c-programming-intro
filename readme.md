@@ -230,3 +230,35 @@ void main()
     printf("%d \n", num);
 }
 ```
+
+### Relational Operators:
+
+```
+- Equal : ==
+- Not Equal : !=
+- Grater then: >
+- Grater then or equal: >=
+- Less than: <
+- Less than or equal: <=
+```
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int num1, num2;
+    num1 = 10;
+    num2 = 13;
+    // equal
+    printf("%d \n", num1 == num2);
+    // gater then
+    printf("%d \n", num1 > num2);
+    // gater then or equal
+    printf("%d \n", num1 >= num2);
+    // less then
+    printf("%d \n", num1 < num2);
+    // les then or equal
+    printf("%d \n", num1 <= num2);
+}
+```
