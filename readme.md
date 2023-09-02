@@ -524,6 +524,11 @@ void main()
 
 ## Function:
 
+### There are two kind of function:
+
+- built-in or library function
+- user defined function
+
 ### 3 step of function:
 
 - function declaration :
@@ -624,5 +629,49 @@ void main()
 int sum(int num1, int num2)
 {
     return num1 + num2;
+}
+```
+
+## Array:
+
+### Array Declaration (Simple Array):
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    // dataType arrayName[length] = {arrayElements}
+    int numbers[5] = {1, 2, 3, 4, 5};
+    // dataType arrayName[] = {arrayElements}
+    char characters[] = {'A', 'B', 'C'};
+}
+```
+
+### Array Indexing
+
+- Array index start from 0, and last index is (length-1). we can access array element using index number. We can also assign or reassign array element using index number.
+
+```
+arrayName[indexNumber]
+```
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int numbers[] = {1, 2, 3, 4};
+
+    // get value.
+    printf("%d \n", numbers[2]);
+
+    // assign value
+    numbers[4] = 5;
+    printf("%d \n", numbers[4]);
+
+    // reassign value
+    numbers[1] = 10;
+    printf("%d \n", numbers[1]);
 }
 ```
