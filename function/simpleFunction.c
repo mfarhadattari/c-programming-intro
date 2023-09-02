@@ -14,8 +14,3 @@ void main()
     // function calling
     hello();
 }
-
-/* void main()
-{
-    printf("Hello World!");
-} */

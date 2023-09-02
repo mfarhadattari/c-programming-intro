@@ -521,3 +521,49 @@ void main()
     };
 }
 ```
+
+## Function:
+
+### 3 step of function:
+
+- function declaration :
+
+```
+returnType functionName()
+```
+
+- function definition:
+
+```
+returnType functionName()
+{
+    // function statement here
+}
+```
+
+- function calling:
+
+```
+functionName()
+```
+
+### Simple Function:
+
+```c
+#include <stdio.h>
+
+// function declaration
+void hello();
+
+// function definition
+void hello()
+{
+    printf("Hello world!");
+}
+
+void main()
+{
+    // function calling
+    hello();
+}
+```
