@@ -675,3 +675,73 @@ void main()
     printf("%d \n", numbers[1]);
 }
 ```
+
+### Array Sizing and length - sizeof():
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int numbers[] = {1, 2, 3, 4, 5};
+    // each element size
+    int eachSize = sizeof(numbers[0]);
+    printf("Each element size: %d  \n", eachSize);
+
+    // full array size
+    int arraySize = sizeof(numbers);
+    printf("Array Size: %d \n", arraySize);
+
+    // calculate array length
+    int length = arraySize / eachSize;
+    printf("Array length: %d ", length);
+}
+```
+
+### Loop in array:
+
+- for loop:
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int length, i;
+    int numbers[] = {1, 2, 3, 4, 5};
+
+    // calculation length
+    length = sizeof(numbers) / sizeof(numbers[0]);
+
+    for (i = 0; i < length; i++)
+    {
+        printf("%d \n", numbers[i]);
+    }
+}
+
+```
+
+- while loop:
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int length, sum, i;
+    int numbers[] = {1, 2, 3, 4, 5};
+
+    // calculation length
+    length = sizeof(numbers) / sizeof(numbers[0]);
+
+    i = 0;
+    sum = 0;
+    while (i < length)
+    {
+        sum += numbers[length];
+        i++;
+    }
+    printf("Sum: %d ", sum);
+}
+
+```
