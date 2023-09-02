@@ -23,4 +23,10 @@ void main()
     // Modulus
     int modulus = num1 % num2;
     printf("Modulus: %d \n", modulus);
+
+    // increase by one
+    num1++;
+    // decrease by one
+    num2--;
+    printf("%d %d", num1, num2);
 }

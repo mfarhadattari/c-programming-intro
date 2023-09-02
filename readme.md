@@ -157,6 +157,8 @@ void main()
 - Multiplication: *
 - Divide: /
 - Modulus: %
+- Increase by One: ++
+- decrease by one: --
 ```
 
 ```c
@@ -185,6 +187,12 @@ void main()
     // Modulus
     int modulus = num1 % num2;
     printf("Modulus: %d \n", modulus);
+
+    // increase by one
+    num1++;
+    // decrease by one
+    num2--;
+    printf("%d %d", num1, num2);
 }
 ```
 
@@ -424,4 +432,28 @@ void main()
     // only true
     age == 33 && printf("\nLast year of your govt job!");
 }
+```
+
+## Loop:
+
+- while loop
+- do-while loop
+- for loop
+
+### while Loop
+
+```c
+#include <stdio.h>
+
+void main()
+{
+    int num;
+    num = 0;
+    while (num <= 100)
+    {
+        printf("%d \n", num);
+        num++;
+    };
+}
+
 ```
